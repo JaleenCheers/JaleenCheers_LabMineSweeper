@@ -39,7 +39,7 @@ void cMain::OnButtonClicked(wxCommandEvent& evt) {
 	if (bFirstClick) {
 
 		int mines = 30;
-
+		 
 		while (mines) {
 
 			int rx = rand() % nFieldWidth;
